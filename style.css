@@ -1,6 +1,6 @@
 #body2
 {
-    background: wheat;
+    background: linear-gradient(235deg,#1a2f3f,#9094ce);
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -1227,4 +1227,299 @@ min-height: 100vh;
     font-size: 3em;
     line-height: 1em;
     text-align: center;
+}
+
+.kontener
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -150;
+    left: 400;
+}
+.kontener .kard
+{
+position: relative;
+width: 600px;
+height: 350px;
+margin: 20px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+background: linear-gradient(45deg,#1a2f3f,#9094ce);
+}
+.kontener .kard img
+{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 400px;
+    transition: 0.5s;
+}
+.kontener .kard:hover img
+{
+    left: 85%;
+    height: 500px;
+}
+.kontener .kard .kontent
+{
+    position: relative;
+    width: 50%;
+    left: 20%;
+    padding: 20px 20px 20px 40px;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+.kontener .kard:hover .kontent
+{
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+.kontener .kard .kontent h2
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.2em;
+    line-height: 1em;
+}
+.kontener .kard .kontent p
+{
+    color: white;
+}
+.kontener .kard .kontent a
+{
+    position: relative;
+    color: #111;
+    background: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+
+
+.kontener1
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -150;
+    left: 800;;
+}
+.kontener1 .kard1
+{
+position: relative;
+width: 600px;
+height: 350px;
+margin: 20px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+background: linear-gradient(45deg,#1a2f3f,#9094ce);
+}
+.kontener1 .kard1 img
+{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 400px;
+    transition: 0.5s;
+}
+.kontener1 .kard1:hover img
+{
+    left: 95%;
+    height: 500px;
+}
+.kontener1 .kard1 .kontent1
+{
+    position: relative;
+    width: 50%;
+    left: 20%;
+    padding: 20px 20px 20px 40px;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+.kontener1 .kard1:hover .kontent1
+{
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+.kontener1 .kard1 .kontent1 h2
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.2em;
+    line-height: 1em;
+}
+.kontener1 .kard1 .kontent1 p
+{
+    color: white;
+}
+.kontener1 .kard1 .kontent1 a
+{
+    position: relative;
+    color: #111;
+    background: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.kontener3
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 600;
+    right: 880;
+}
+.kontener3 .kard3
+{
+position: relative;
+width: 600px;
+height: 350px;
+margin: 20px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+background: linear-gradient(45deg,#1a2f3f,#9094ce);
+}
+.kontener3 .kard3 img
+{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 400px;
+    transition: 0.5s;
+}
+.kontener3 .kard3:hover img
+{
+    left: 85%;
+    height: 500px;
+}
+.kontener3 .kard3 .kontent3
+{
+    position: relative;
+    width: 50%;
+    left: 20%;
+    padding: 20px 20px 20px 40px;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+.kontener3 .kard3:hover .kontent3
+{
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+.kontener3 .kard3 .kontent3 h2
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.2em;
+    line-height: 1em;
+}
+.kontener3 .kard3 .kontent3 p
+{
+    color: white;
+}
+.kontener3 .kard3 .kontent3 a
+{
+    position: relative;
+    color: #111;
+    background: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.kontener4
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 600;
+    right: 480;
+}
+.kontener4 .kard4
+{
+position: relative;
+width: 600px;
+height: 350px;
+margin: 20px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+background: linear-gradient(45deg,#1a2f3f,#9094ce);
+}
+.kontener4 .kard4 img
+{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 400px;
+    transition: 0.5s;
+}
+.kontener4 .kard4:hover img
+{
+    left: 85%;
+    height: 500px;
+}
+.kontener4 .kard4 .kontent4
+{
+    position: relative;
+    width: 50%;
+    left: 20%;
+    padding: 20px 20px 20px 40px;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+.kontener4 .kard4:hover .kontent4
+{
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+.kontener4 .kard4 .kontent4 h2
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.2em;
+    line-height: 1em;
+}
+.kontener4 .kard4 .kontent4 p
+{
+    color: white;
+}
+.kontener4 .kard4 .kontent4 a
+{
+    position: relative;
+    color: #111;
+    background: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 700;
 }
