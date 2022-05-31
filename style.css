@@ -894,10 +894,11 @@ min-height: 100vh;
         }
         #menub {
             text-decoration: none;
-            color: #000000;
+            color: #ffffff;
+            font-weight: 300;
             text-align: center; 
             font-size: 18px;
-            }
+}
             .card7
 {
     position: relative;
