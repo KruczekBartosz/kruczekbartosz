@@ -1,0 +1,86 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=0.6, minimum-scale=0.5">
+    <link rel="stylesheet" href="style.css">
+    <title>Seriale</title>
+</head>
+<body id="body3">
+    <section>
+		<header>
+			<a href="#" class="logo">Seriale</a>
+			<div class="toggle" onclick="toggleMenu();"></div>
+			<ul class="navigation">
+				<li><a href="bohaterowie.html" style="--i:1;">Bohaterowie</a></li>
+				<li><a href="zloczyncy.html" style="--i:2;">Złoczyńcy</a></li>
+				<li><a href="filmy.html" style="--i:3;">Filmy</a></li>
+				<li><a href="seriale.html" style="--i:4;">Seriale</a></li>
+			</ul>
+		</header>
+  </section>
+  <script>
+		let imgBx = document.querySelectorAll('.imgBx');
+		imgBx.forEach(popup => popup.addEventListener('click', () =>{
+			popup.classList.toggle('active')
+		}))
+
+		function toggleMenu(){
+	      var menuToggle = document.querySelector('.toggle');
+	      var navigation = document.querySelector('.navigation');
+	      menuToggle.classList.toggle('active');
+	      navigation.classList.toggle('active');
+	    }
+	</script>
+    <br><br>
+    <div class="dol"></div>
+<div class="box">
+    <div class="imgBx"><center>
+        <img src="https://m.media-amazon.com/images/M/MV5BYTc5OWNhYjktMThlOS00ODUxLTgwNDQtZjdjYjkyM2IwZTZlXkEyXkFqcGdeQXVyNTA3MTU2MjE@._V1_.jpg">
+    </div></center>
+    <div class="content">
+        <h2>Moon Knight<br><span>Sezon 1</span></h2>
+    </div>
+</div>
+
+<div class="box">
+    <div class="imgBx"><center>
+        <img src="https://flxt.tmsimg.com/assets/p11408531_i_v9_aa.jpg">
+    </div></center>
+    <div class="content">
+        <h2>Daredevil<br><span>Sezon 1</span></h2>
+    </div>
+</div>
+
+<div class="box">
+    <div class="imgBx"><center>
+        <img src="https://i.etsystatic.com/15963200/r/il/0aabf7/3150449151/il_570xN.3150449151_fgqq.jpg">
+    </div></center>
+    <div class="content">
+        <h2>Loki<br><span>Sezon 1</span></h2>
+    </div>
+</div>
+
+<div class="box">
+    <div class="imgBx"><center>
+        <img src="https://cdn1.naekranie.pl/media/cache/amp/2020/09/wanda45_5f684b2565e40.jpeg">
+    </div></center>
+    <div class="content">
+        <h2>WandaVision<br><span>Sezon 1</span></h2>
+    </div>
+</div>
+
+<div class="box">
+    <div class="imgBx"><center>
+        <img src="https://pics.filmaffinity.com/Hawkeye_Miniserie_de_TV-585920449-large.jpg">
+    </div></center>
+    <div class="content">
+        <h2>Hawkeye<br><span>Sezon 1</span></h2>
+    </div>
+</div>
+
+
+
+
+
+
+</html>

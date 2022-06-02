@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+    <title>Strona Główna</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+	<section>
+		<header>
+			<a href="#" class="logo">Strona, która ma zaskoczyć</a>
+			<div class="toggle" onclick="toggleMenu();"></div>
+			<ul class="navigation">
+				<li><a href="#" style="--i:1;">Bohaterowie</a></li>
+				<li><a href="#" style="--i:2;">Złoczyńcy</a></li>
+				<li><a href="#" style="--i:3;">Filmy</a></li>
+				<li><a href="#" style="--i:4;">Seriale</a></li>
+			</ul>
+		</header>
+		<div class="container">
+			<div class="box" style="--i:3;">
+				<div class="imgBx">
+					<img src="https://upload.wikimedia.org/wikipedia/fi/d/d5/Daredevil41.jpg">
+				
+            <div class="kontent">
+                <h2>Bohaterowie</h2><br>
+                    <a href="bohaterowie.html">Przejdź do zakładki Bohaterowie</a>
+            </div>
+			</div>
+        </div>
+			<div class="box" style="--i:4;">
+				<div class="imgBx">
+					<img src="https://www.pinkvilla.com/files/styles/amp_metadata_content_image/public/Avengers%20Endgame%20New%20theory%20explains%20why%20Thanos%20was%20harsh%20on%20Asgardians%20%282%29.jpg">
+					<div class="kontent">
+						<h2>Złoczyńcy</h2><br>
+							<a href="zloczyncy.html">Przejdź do zakładki Złoczyńcy</a>
+					</div>
+				</div>
+			</div>
+			<div class="box" style="--i:5;">
+				<div class="imgBx">
+					<img src="https://blogdoarmindo.com.br/wp-content/uploads/2021/09/c6na8q11kon71.jpg">
+					<div class="kontent">
+						<h2>Filmy</h2><br>
+							<a href="filmy.html">Przejdź do zakładki Filmy</a>
+					</div>
+				</div>
+			</div>
+			<div class="box" style="--i:6;">
+				<div class="imgBx">
+					<img src="https://i.redd.it/mhrb4slol0s71.png">
+					<div class="kontent">
+						<h2>Seriale</h2><br>
+							<a href="seriale.html">Przejdź do zakładki Seriale</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+	<script>
+		let imgBx = document.querySelectorAll('.imgBx');
+		imgBx.forEach(popup => popup.addEventListener('click', () =>{
+			popup.classList.toggle('active')
+		}))
+
+		function toggleMenu(){
+	      var menuToggle = document.querySelector('.toggle');
+	      var navigation = document.querySelector('.navigation');
+	      menuToggle.classList.toggle('active');
+	      navigation.classList.toggle('active');
+	    }
+	</script>
+</body>
+</html>
