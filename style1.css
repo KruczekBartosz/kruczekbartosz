@@ -148,19 +148,20 @@ section .container .box .imgBx img
 }
 section .container .box .imgBx:hover img
 {
-	transform: scale(0.8);
+	transform: scaleX(0);
 	filter:blur(2px);
 	top: 25px;
 }
 section .container .box .imgBx:hover h2 
 {
+	bottom: 4px;
 	padding: 4px;
 	top: 2px;
 	left: 2px;
 	opacity: 1;
 	visibility: visible;
 	color: white;
-	font-size: 20px;
+	font-size: 28px;
 	text-align: center;
 	text-decoration: none;
 }
